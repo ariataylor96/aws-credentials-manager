@@ -31,6 +31,7 @@ function getProfiles() {
 module.exports = {
   getProfiles,
   getCurrentProfile,
+  linkName,
   awsDir,
   profilesDir,
 };
