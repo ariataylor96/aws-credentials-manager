@@ -1,0 +1,46 @@
+{
+  "name": "aws-credentials-manager",
+  "description": "Manages credentials profiles for the AWS CLI",
+  "version": "0.0.0",
+  "author": "Mark Rawls",
+  "bin": {
+    "acm": "./bin/run"
+  },
+  "bugs": "https://github.com/markrawls/aws-credentials-manager/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/markrawls/aws-credentials-manager",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "acm",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "markrawls/aws-credentials-manager",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "posttest": "eslint .",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
