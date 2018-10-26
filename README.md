@@ -10,6 +10,12 @@ Manages credentials profiles for the AWS CLI
 
 <!-- toc -->
 # Usage
-<!-- usage -->
+
+    $ acm [COMMAND]
+
 # Commands
-<!-- commands -->
+    
+    add   Add a new profile
+    help  display help for acm
+    list  List all available profiles
+    use   Sets your current profile
