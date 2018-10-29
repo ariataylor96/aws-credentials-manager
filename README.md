@@ -9,6 +9,9 @@ Manages credentials profiles for the AWS CLI
 [![License](https://img.shields.io/npm/l/aws-credentials-manager.svg)](https://github.com/markrawls/aws-credentials-manager/blob/master/package.json)
 
 <!-- toc -->
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
 # Usage
 
     $ acm [COMMAND]
