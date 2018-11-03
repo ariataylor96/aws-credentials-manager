@@ -26,7 +26,11 @@
   ],
   "homepage": "https://github.com/markrawls/aws-credentials-manager",
   "keywords": [
-    "oclif"
+    "oclif",
+    "aws",
+    "credentials",
+    "management",
+    "utility"
   ],
   "license": "MIT",
   "main": "src/index.js",
