@@ -17,6 +17,7 @@ many profile names.
 [![License](https://img.shields.io/npm/l/aws-credentials-manager.svg)](https://github.com/markrawls/aws-credentials-manager/blob/master/package.json)
 
 <!-- toc -->
+* [Why?](#why)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
