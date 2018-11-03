@@ -19,6 +19,6 @@ class ListCommand extends Command {
   }
 }
 
-ListCommand.description = `List all available profiles`;
+ListCommand.description = `list all available profiles`;
 
 module.exports = ListCommand;

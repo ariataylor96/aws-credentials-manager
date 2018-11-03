@@ -18,7 +18,8 @@ Manages credentials profiles for the AWS CLI
 
 # Commands
     
-    add   Add a new profile
+    add   add a new profile
     help  display help for acm
-    list  List all available profiles
-    use   Sets your current profile
+    list  list all available profiles
+    migrate  migrate the current profile to the ACM structure
+    use   sets your current profile

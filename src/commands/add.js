@@ -32,7 +32,7 @@ aws_secret_access_key = ${flags.secretKey}`;
   }
 }
 
-AddCommand.description = 'Add a new profile';
+AddCommand.description = 'add a new profile';
 
 AddCommand.args = [
   {

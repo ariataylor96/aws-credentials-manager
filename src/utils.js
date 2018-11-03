@@ -12,13 +12,19 @@ function setup() {
   }
 }
 
+function profileExists() {
+  return fs.existsSync(linkName);
+}
+
+function profileIsSymlink() {
+  return fs.lstatSync(linkName).isSymbolicLink();
+}
+
 function getCurrentProfile() {
   let result = null;
 
-  if (fs.existsSync(linkName)) {
-    if (fs.lstatSync(linkName).isSymbolicLink()) {
+  if (profileIsSymlink()) {
       result = path.basename(fs.readlinkSync(linkName));
-    }
   }
 
   return result;
@@ -31,6 +37,8 @@ function getProfiles() {
 module.exports = {
   getProfiles,
   getCurrentProfile,
+  profileIsSymlink,
+  profileExists,
   linkName,
   awsDir,
   profilesDir,
